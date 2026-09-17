@@ -1,0 +1,353 @@
+import { MenuItem } from '../types';
+
+export const RESTAURANT_INFO = {
+  name: 'Touros Burger & Pizza',
+  deliveryBadgeTitle: 'ATENDIMENTO EXCLUSIVO VIA DELIVERY',
+  deliveryBadgeSubtitle: 'Peça no conforto da sua casa • Entregas rápidas e embalagens térmicas',
+  whatsapp: '(69) 98147-6726',
+  whatsappRaw: '5569981476726',
+  instagram: '@tourosburguer.chp',
+  instagramUrl: 'https://instagram.com/tourosburguer.chp',
+};
+
+export const HAMBURGERS: MenuItem[] = [
+  {
+    id: 'burg-1',
+    name: 'Cheese Salada',
+    price: 'R$ 23,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, muçarela, alface, tomate e maionese temperada.',
+  },
+  {
+    id: 'burg-2',
+    name: 'Burguer Nutella',
+    price: 'R$ 21,00',
+    category: 'hamburgueres',
+    description: 'Pão brioche, muçarela, Nutella e banana.',
+    badge: 'Doce',
+  },
+  {
+    id: 'burg-3',
+    name: 'Cheese Burguer',
+    price: 'R$ 24,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, muçarela, calabresa, alface, tomate e maionese temperada.',
+  },
+  {
+    id: 'burg-4',
+    name: 'Cheese Tourada',
+    price: 'R$ 25,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, muçarela, calabresa, barbecue, ovo, alface, tomate e maionese temperada.',
+  },
+  {
+    id: 'burg-5',
+    name: 'Cheese Bacon',
+    price: 'R$ 27,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, muçarela, bacon, barbecue, alface, tomate e maionese temperada.',
+  },
+  {
+    id: 'burg-6',
+    name: 'Tropical Burguer',
+    price: 'R$ 28,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, bacon, cheddar, abacaxi, barbecue e alface.',
+  },
+  {
+    id: 'burg-7',
+    name: 'Cheese Cowboy',
+    price: 'R$ 26,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, muçarela, salsicha, ovo, bacon, cebola, alface, tomate e maionese temperada.',
+  },
+  {
+    id: 'burg-8',
+    name: 'Cheddar Burguer',
+    price: 'R$ 31,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, muçarela, cheddar, bacon, ovo, cebola caramelizada, alface, tomate e maionese temperada.',
+  },
+  {
+    id: 'burg-9',
+    name: 'Country Burguer',
+    price: 'R$ 31,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, muçarela, bacon, provolone, picles, onion rings, alface, tomate e maionese temperada.',
+  },
+  {
+    id: 'burg-10',
+    name: 'Cavalgada Burguer',
+    price: 'R$ 31,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, muçarela, bacon, calabresa, salsicha, ovo, cebola, alface, tomate e maionese temperada.',
+  },
+  {
+    id: 'burg-11',
+    name: 'West Burguer',
+    price: 'R$ 31,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, queijo muçarela, cebola crispy, queijo gorgonzola, bacon, picles e maionese temperada.',
+  },
+  {
+    id: 'burg-12',
+    name: 'Texano Burguer',
+    price: 'R$ 32,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, muçarela, bacon, cheddar, lombo defumado, calabresa, barbecue, alface, tomate e maionese temperada.',
+  },
+  {
+    id: 'burg-13',
+    name: 'Festa do Laço',
+    price: 'R$ 32,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, muçarela, calabresa, ovo, frango desfiado, catupiry, alface, tomate e maionese temperada.',
+  },
+  {
+    id: 'burg-14',
+    name: 'Pepperoni Burguer',
+    price: 'R$ 32,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, muçarela, catupiry, picles, pepperoni, alface e tomate.',
+  },
+  {
+    id: 'burg-15',
+    name: 'Mr. Queijo Burguer',
+    price: 'R$ 32,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, queijo muçarela derretido empanado, bacon, barbecue, alface, tomate e maionese temperada.',
+  },
+  {
+    id: 'burg-16',
+    name: 'Uai Burguer',
+    price: 'R$ 32,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, queijo provolone, doce de leite e bacon.',
+  },
+  {
+    id: 'burg-17',
+    name: 'Garlic Burguer',
+    price: 'R$ 34,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, queijo cheddar, alho frito, cebola caramelizada e maionese temperada.',
+  },
+  {
+    id: 'burg-18',
+    name: 'NYC Burguer',
+    price: 'R$ 36,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, queijo provolone, bacon, salame, mix de pimentas com cebola, queijo parmesão e maionese temperada.',
+  },
+  {
+    id: 'burg-19',
+    name: 'Melt Burguer',
+    price: 'R$ 38,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, queijo provolone, queijo coalho tostado com mel, bacon, banana da terra frita e maionese temperada.',
+  },
+  {
+    id: 'burg-20',
+    name: 'Rancho Burguer',
+    price: 'R$ 42,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, hambúrguer de carne, queijo provolone, bacon, barbecue, onion rings, queijo empanado com goiabada e maionese temperada.',
+  },
+  {
+    id: 'burg-21',
+    name: 'Touros Burguer (02 carnes)',
+    price: 'R$ 43,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, 02 hambúrgueres de carne, muçarela, bacon, calabresa, cheddar, ovo, onion rings, alface, tomate e maionese temperada.',
+    badge: '02 Carnes',
+  },
+  {
+    id: 'burg-22',
+    name: 'Cheese Cavalo (03 carnes)',
+    price: 'R$ 47,90',
+    category: 'hamburgueres',
+    description: 'Pão brioche, 03 hambúrgueres de carne, muçarela, bacon, ovo, catupiry empanado, cebola caramelizada, alface, tomate e maionese temperada.',
+    badge: '03 Carnes Especial',
+  },
+];
+
+export const HOTDOG_AND_PORTIONS: MenuItem[] = [
+  {
+    id: 'hd-1',
+    name: 'Dogão Tradicional',
+    price: 'R$ 14,00',
+    category: 'hotdog-porcoes',
+    description: 'Pão, queijo muçarela, milho, salsicha, ketchup, maionese, batata palha e molho especial.',
+  },
+  {
+    id: 'porc-1',
+    name: 'Batata Tradicional',
+    category: 'hotdog-porcoes',
+    prices: [
+      { label: 'P (150g)', price: 'R$ 15,00' },
+      { label: 'G (350g)', price: 'R$ 23,00' },
+    ],
+    description: 'Batata frita crocante tradicional.',
+  },
+  {
+    id: 'porc-2',
+    name: 'Batata Crinkle',
+    category: 'hotdog-porcoes',
+    prices: [
+      { label: 'P', price: 'R$ 17,00' },
+      { label: 'G', price: 'R$ 30,00' },
+    ],
+    description: 'Batata frita com corte ondulado especial.',
+  },
+  {
+    id: 'porc-3',
+    name: 'Calabresa Acebolada',
+    category: 'hotdog-porcoes',
+    prices: [
+      { label: 'P (200g)', price: 'R$ 25,00' },
+      { label: 'G (400g)', price: 'R$ 35,00' },
+    ],
+    description: 'Calabresa fatiada frita com rodelas de cebola na chapa.',
+  },
+  {
+    id: 'porc-4',
+    name: 'Frango a Passarinho',
+    category: 'hotdog-porcoes',
+    prices: [
+      { label: 'P (300g)', price: 'R$ 25,00' },
+      { label: 'G (700g)', price: 'R$ 45,00' },
+    ],
+    description: 'Frango em pedaços crocante e dourado.',
+  },
+  {
+    id: 'porc-5',
+    name: 'Iscas de Filé Acebolada',
+    category: 'hotdog-porcoes',
+    prices: [
+      { label: 'P (250g)', price: 'R$ 35,00' },
+      { label: 'G (550g)', price: 'R$ 65,00' },
+    ],
+    description: 'Tiras suculentas de filé bovino salteadas com cebola.',
+  },
+  {
+    id: 'porc-6',
+    name: 'Nuggets de Frango',
+    price: 'R$ 15,00',
+    category: 'hotdog-porcoes',
+    description: 'Porção com 200g de empanados de frango dourados.',
+  },
+  {
+    id: 'porc-combo',
+    name: 'Combo Misto (Batata P + Calabresa P)',
+    price: 'R$ 38,00',
+    category: 'hotdog-porcoes',
+    badge: '💥 Combo Favorito',
+    highlight: true,
+    description: 'A combinação ideal: Batata Frita Tradicional P + Porção de Calabresa Acebolada P.',
+  },
+];
+
+export const PIZZA_PRICE_SAVORY = {
+  media: 'R$ 50,00',
+  grande: 'R$ 62,00',
+  fatiasMedia: '6 Fatias (30 cm)',
+  fatiasGrande: '8 Fatias (35 cm)',
+};
+
+export const PIZZAS_SALGADAS: MenuItem[] = [
+  { id: 'pz-1', name: 'Marguerita', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, manjericão, tomate e orégano.' },
+  { id: 'pz-2', name: 'Frango com Catupiry', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, frango desfiado, catupiry e orégano.' },
+  { id: 'pz-3', name: 'Calabresa', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, calabresa, cebola, azeitona e orégano.' },
+  { id: 'pz-4', name: 'Bacon', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, bacon, azeitona e orégano.' },
+  { id: 'pz-5', name: 'Lombo Defumado', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, lombo e orégano.' },
+  { id: 'pz-6', name: 'Calabacon', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, calabresa, bacon, cebola, azeitona e orégano.' },
+  { id: 'pz-7', name: 'Calabresa Especial', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, calabresa, cheddar, cebola, azeitona e orégano.' },
+  { id: 'pz-8', name: 'Lombo com Catupiry', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, lombo, catupiry e orégano.' },
+  { id: 'pz-9', name: 'Bacon Especial', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, bacon, catupiry e orégano.' },
+  { id: 'pz-10', name: 'Frango com Bacon', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, frango desfiado, bacon e orégano.' },
+  { id: 'pz-11', name: 'Cinco Queijos', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, orégano, provolone, gorgonzola, cheddar e catupiry.' },
+  { id: 'pz-12', name: 'Moda da Casa', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, presunto, frango, calabresa, catupiry, milho e orégano.' },
+  { id: 'pz-13', name: 'Americana', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, bacon, calabresa, ovos, cebola e orégano.' },
+  { id: 'pz-14', name: 'Don Camillo', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, presunto, calabresa, tomate, creme de leite e orégano.' },
+  { id: 'pz-15', name: 'Presuntada', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, presunto e orégano.' },
+  { id: 'pz-16', name: 'Quatro Queijos', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, provolone, parmesão, catupiry e orégano.' },
+  { id: 'pz-17', name: 'Espanhola', category: 'pizzas-salgadas', description: 'Molho de tomate, presunto, muçarela, calabresa, cebola e orégano.' },
+  { id: 'pz-18', name: 'Champignon', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, champignon e orégano.' },
+  { id: 'pz-19', name: 'Canadense', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, champignon, lombo, palmito, catupiry e orégano.' },
+  { id: 'pz-20', name: 'Mineira', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, catupiry, milho verde e orégano.' },
+  { id: 'pz-21', name: 'Tropical', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, frango, milho, ervilha, ovos, catupiry e orégano.' },
+  { id: 'pz-22', name: 'Carioca', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, milho, palmito, catupiry e orégano.' },
+  { id: 'pz-23', name: 'Calabresa Suprema', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, calabresa, parmesão e catupiry.' },
+  { id: 'pz-24', name: 'Strogonoff de Carne', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, strogonoff de carne e batata palha.' },
+  { id: 'pz-25', name: 'Havaiana Lombo', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, lombo, abacaxi e orégano.' },
+  { id: 'pz-26', name: 'Havaiana Bacon', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, bacon, abacaxi e orégano.' },
+  { id: 'pz-27', name: 'Muçarela', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela e orégano.' },
+  { id: 'pz-28', name: 'Alho e Óleo', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, alho, azeite de oliva e orégano.' },
+  { id: 'pz-29', name: 'Frango', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, frango desfiado e orégano.' },
+  { id: 'pz-30', name: 'Mexicana', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, calabresa, pimentão, orégano e pimenta calabresa.' },
+  { id: 'pz-31', name: 'Napolitana', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, queijo parmesão, tomates e orégano.' },
+  { id: 'pz-32', name: 'Paulista', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, ervilha, palmito, milho, azeitona e orégano.' },
+  { id: 'pz-33', name: 'Toscana', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, calabresa, ovo e orégano.' },
+  { id: 'pz-34', name: 'Cheddar', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, cheddar e orégano.' },
+  { id: 'pz-35', name: 'Milho com Bacon', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, orégano, milho e bacon.' },
+  { id: 'pz-36', name: 'Palmito', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, ovo, palmito, azeitona e orégano.' },
+  { id: 'pz-37', name: 'Portuguesa', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, presunto, ovo, pimentão, cebola, azeitona e orégano.' },
+  { id: 'pz-38', name: 'Pepperoni', category: 'pizzas-salgadas', description: 'Molho de tomate, muçarela, pepperoni, cebola e orégano.' },
+];
+
+export const PIZZA_PRICE_SWEET_STANDARD = {
+  media: 'R$ 52,00',
+  grande: 'R$ 65,00',
+  fatiasMedia: '6 Fatias',
+  fatiasGrande: '8 Fatias',
+};
+
+export const PIZZAS_DOCES_PADRAO: MenuItem[] = [
+  { id: 'pzd-1', name: 'Beijinho', category: 'pizzas-doces', subCategory: 'Padrão', description: 'Creme de leite, muçarela, chocolate branco e coco ralado.' },
+  { id: 'pzd-2', name: 'Prestígio', category: 'pizzas-doces', subCategory: 'Padrão', description: 'Creme de leite, muçarela, chocolate preto e coco ralado.' },
+  { id: 'pzd-3', name: 'Confete', category: 'pizzas-doces', subCategory: 'Padrão', description: 'Creme de leite, muçarela, chocolate preto ou branco e confete.' },
+  { id: 'pzd-4', name: 'Banana', category: 'pizzas-doces', subCategory: 'Padrão', description: 'Creme de leite, muçarela, banana, açúcar de confeiteiro e canela.' },
+  { id: 'pzd-5', name: 'Chocolate Branco', category: 'pizzas-doces', subCategory: 'Padrão', description: 'Creme de leite, muçarela e chocolate branco.' },
+  { id: 'pzd-6', name: 'Chocolate Preto', category: 'pizzas-doces', subCategory: 'Padrão', description: 'Creme de leite, muçarela e chocolate preto.' },
+  { id: 'pzd-7', name: 'Romeu e Julieta', category: 'pizzas-doces', subCategory: 'Padrão', description: 'Creme de leite, muçarela e goiabada.' },
+  { id: 'pzd-8', name: 'Paçoca', category: 'pizzas-doces', subCategory: 'Padrão', description: 'Creme de leite, muçarela e paçoca.' },
+];
+
+export const PIZZA_PRICE_SWEET_SPECIAL = {
+  media: 'R$ 54,00',
+  grande: 'R$ 68,00',
+  fatiasMedia: '6 Fatias',
+  fatiasGrande: '8 Fatias',
+};
+
+export const PIZZAS_DOCES_ESPECIAIS: MenuItem[] = [
+  { id: 'pzde-1', name: 'Nutella c/ Morango', category: 'pizzas-doces', subCategory: 'Especial', description: 'Creme de leite, muçarela, Nutella e morangos.', highlight: true },
+  { id: 'pzde-2', name: 'Abacaxi com Coco', category: 'pizzas-doces', subCategory: 'Especial', description: 'Leite condensado, muçarela, abacaxi e coco ralado.' },
+  { id: 'pzde-3', name: 'Banana com Nutella', category: 'pizzas-doces', subCategory: 'Especial', description: 'Creme de leite, muçarela, banana e Nutella.', highlight: true },
+  { id: 'pzde-4', name: 'Ovomaltine', category: 'pizzas-doces', subCategory: 'Especial', description: 'Creme de leite, muçarela e chocolate polvilhado com Ovomaltine.' },
+  { id: 'pzde-5', name: 'Floresta Negra', category: 'pizzas-doces', subCategory: 'Especial', description: 'Creme de leite, muçarela, chocolate ao leite e chocolate branco.' },
+];
+
+export const BEBIDAS: MenuItem[] = [
+  { id: 'beb-1', name: 'Refrigerante Lata', price: 'R$ 7,00', category: 'bebidas', description: 'Lata 350ml' },
+  { id: 'beb-2', name: 'Refrig. Lata Zero', price: 'R$ 7,00', category: 'bebidas', description: 'Lata 350ml Zero Açúcar' },
+  { id: 'beb-3', name: 'H2OH!', price: 'R$ 8,00', category: 'bebidas', description: 'Garrafa 500ml' },
+  { id: 'beb-4', name: 'Coca-Cola 600ml', price: 'R$ 10,00', category: 'bebidas', description: 'Garrafa 600ml' },
+  { id: 'beb-5', name: 'Guaraná 600ml', price: 'R$ 8,00', category: 'bebidas', description: 'Garrafa 600ml' },
+  { id: 'beb-6', name: 'Coca-Cola 1L', price: 'R$ 12,00', category: 'bebidas', description: 'Garrafa 1 Litro' },
+  { id: 'beb-7', name: 'Coca-Cola Café', price: 'R$ 6,00', category: 'bebidas', description: 'Lata' },
+  { id: 'beb-8', name: 'Refrigerante 1L', price: 'R$ 10,00', category: 'bebidas', description: 'Garrafa 1 Litro diversos sabores' },
+  { id: 'beb-9', name: 'Coca-Cola 2L', price: 'R$ 15,00', category: 'bebidas', description: 'Garrafa 2 Litros tamanho família' },
+  { id: 'beb-10', name: 'Suco Del Valle Lata', price: 'R$ 9,00', category: 'bebidas', description: 'Lata' },
+  { id: 'beb-11', name: 'Água S/ Gás', price: 'R$ 4,00', category: 'bebidas', description: 'Garrafa 500ml' },
+  { id: 'beb-12', name: 'Água C/ Gás', price: 'R$ 4,50', category: 'bebidas', description: 'Garrafa 500ml' },
+  { id: 'beb-13', name: 'Redbull Lata', price: 'R$ 14,00', category: 'bebidas', description: 'Lata Energético 250ml' },
+];
+
+export const ALL_MENU_ITEMS: MenuItem[] = [
+  ...HAMBURGERS,
+  ...HOTDOG_AND_PORTIONS,
+  ...PIZZAS_SALGADAS,
+  ...PIZZAS_DOCES_PADRAO,
+  ...PIZZAS_DOCES_ESPECIAIS,
+  ...BEBIDAS,
+];

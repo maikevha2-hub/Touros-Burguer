@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <!-- Gradients -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3d180a" />
+      <stop offset="60%" stop-color="#240c04" />
+      <stop offset="100%" stop-color="#120501" />
+    </radialGradient>
+    <radialGradient id="bullBody" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#a3512b" />
+      <stop offset="70%" stop-color="#733215" />
+      <stop offset="100%" stop-color="#4a1e0b" />
+    </radialGradient>
+    <linearGradient id="hatGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5c2d16" />
+      <stop offset="60%" stop-color="#3b1b0b" />
+      <stop offset="100%" stop-color="#220d04" />
+    </linearGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff0aa" />
+      <stop offset="30%" stop-color="#f5c242" />
+      <stop offset="70%" stop-color="#d98918" />
+      <stop offset="100%" stop-color="#915206" />
+    </linearGradient>
+    <linearGradient id="ribbonGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d92b18" />
+      <stop offset="50%" stop-color="#b01b0a" />
+      <stop offset="100%" stop-color="#750f04" />
+    </linearGradient>
+    <linearGradient id="hornGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fdf8e2" />
+      <stop offset="70%" stop-color="#e0cf9b" />
+      <stop offset="100%" stop-color="#8a7346" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background Circle Badge -->
+  <circle cx="300" cy="300" r="290" fill="url(#bgGrad)" stroke="#8d3a14" stroke-width="12" />
+  <circle cx="300" cy="300" r="278" fill="none" stroke="#f5c242" stroke-width="3" stroke-dasharray="6,4" opacity="0.6"/>
+
+  <!-- Stars / Sunburst hints in background -->
+  <g opacity="0.15" fill="#f5c242">
+    <polygon points="300,30 305,60 300,55 295,60" />
+    <polygon points="490,110 465,125 470,118 460,110" />
+    <polygon points="110,110 140,110 130,118 135,125" />
+  </g>
+
+  <!-- Mascot Illustration Group -->
+  <g id="mascot" filter="url(#shadow)">
+    <!-- Bull Horns Behind Hat -->
+    <!-- Left Horn -->
+    <path d="M 220 200 C 170 180 130 130 115 80 C 135 110 180 150 240 180 Z" fill="url(#hornGrad)" stroke="#524020" stroke-width="2"/>
+    <!-- Right Horn -->
+    <path d="M 380 200 C 430 180 470 130 485 80 C 465 110 420 150 360 180 Z" fill="url(#hornGrad)" stroke="#524020" stroke-width="2"/>
+
+    <!-- Bull Ears -->
+    <ellipse cx="175" cy="225" rx="35" ry="18" fill="#733215" transform="rotate(-20 175 225)" stroke="#3b1b0b" stroke-width="2"/>
+    <ellipse cx="175" cy="225" rx="22" ry="10" fill="#d97757" transform="rotate(-20 175 225)"/>
+
+    <ellipse cx="425" cy="225" rx="35" ry="18" fill="#733215" transform="rotate(20 425 225)" stroke="#3b1b0b" stroke-width="2"/>
+    <ellipse cx="425" cy="225" rx="22" ry="10" fill="#d97757" transform="rotate(20 425 225)"/>
+
+    <!-- Bull Body / Chest -->
+    <path d="M 210 320 C 200 420 400 420 390 320 Z" fill="url(#bullBody)" stroke="#3b1b0b" stroke-width="3"/>
+
+    <!-- Red Neckerchief / Bandana -->
+    <polygon points="255,310 345,310 300,385" fill="#dc2626" stroke="#991b1b" stroke-width="2"/>
+    <path d="M 270 325 L 330 325" stroke="#fef08a" stroke-width="2" stroke-dasharray="3,3"/>
+
+    <!-- Bull Head -->
+    <ellipse cx="300" cy="245" rx="90" ry="85" fill="url(#bullBody)" stroke="#3b1b0b" stroke-width="3"/>
+
+    <!-- Bull Snout / Muzzle -->
+    <ellipse cx="300" cy="285" rx="55" ry="38" fill="#d97757" stroke="#4a1e0b" stroke-width="2.5"/>
+    <!-- Nostrils -->
+    <ellipse cx="282" cy="285" rx="9" ry="14" fill="#3b1b0b" transform="rotate(-15 282 285)"/>
+    <ellipse cx="318" cy="285" rx="9" ry="14" fill="#3b1b0b" transform="rotate(15 318 285)"/>
+    <!-- Big Friendly Smile -->
+    <path d="M 275 306 C 290 318 310 318 325 306" stroke="#3b1b0b" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Bull Eyes -->
+    <ellipse cx="265" cy="225" rx="14" ry="18" fill="#ffffff" stroke="#3b1b0b" stroke-width="2"/>
+    <ellipse cx="335" cy="225" rx="14" ry="18" fill="#ffffff" stroke="#3b1b0b" stroke-width="2"/>
+    <ellipse cx="268" cy="226" rx="8" ry="10" fill="#261005"/>
+    <ellipse cx="332" cy="226" rx="8" ry="10" fill="#261005"/>
+    <circle cx="265" cy="222" r="3" fill="#ffffff"/>
+    <circle cx="329" cy="222" r="3" fill="#ffffff"/>
+
+    <!-- Expressive Eyebrows -->
+    <path d="M 250 205 Q 268 198 282 208" stroke="#3b1b0b" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <path d="M 350 205 Q 332 198 318 208" stroke="#3b1b0b" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Cowboy Hat -->
+    <!-- Crown -->
+    <path d="M 240 185 C 235 125 260 105 300 110 C 340 105 365 125 360 185 Z" fill="url(#hatGrad)" stroke="#1a0a03" stroke-width="3"/>
+    <!-- Crown Crease Dent -->
+    <path d="M 285 110 C 295 125 305 125 315 110" stroke="#1a0a03" stroke-width="3" fill="none"/>
+    <!-- Hat Ribbon -->
+    <path d="M 240 175 C 270 182 330 182 360 175 L 361 185 C 330 192 270 192 239 185 Z" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/>
+    <circle cx="300" cy="182" r="3.5" fill="#facc15"/>
+    <!-- Wide Brim -->
+    <path d="M 170 190 C 210 168 390 168 430 190 C 445 198 420 215 300 215 C 180 215 155 198 170 190 Z" fill="url(#hatGrad)" stroke="#1a0a03" stroke-width="3"/>
+
+    <!-- LEFT ARM & BURGER (Viewer's Left, Bull's Right Hand) -->
+    <g id="burger-hand">
+      <!-- Arm -->
+      <path d="M 220 330 C 180 340 150 360 155 385 C 160 405 185 410 205 380 Z" fill="url(#bullBody)" stroke="#3b1b0b" stroke-width="2"/>
+      <!-- Burger -->
+      <g transform="translate(110, 315) rotate(-10)">
+        <!-- Bottom Bun -->
+        <path d="M 20 60 Q 60 72 100 60 Q 100 78 60 80 Q 20 78 20 60 Z" fill="#d97706" stroke="#92400e" stroke-width="2"/>
+        <!-- Patty -->
+        <rect x="18" y="48" width="84" height="13" rx="6" fill="#451a03" stroke="#290e02" stroke-width="1.5"/>
+        <!-- Melted Cheese -->
+        <polygon points="17,47 103,47 96,55 80,51 60,60 40,51 25,57" fill="#fbbf24"/>
+        <!-- Green Lettuce -->
+        <path d="M 15 42 Q 25 48 35 42 Q 45 48 55 42 Q 65 48 75 42 Q 85 48 95 42 Q 105 48 107 42" stroke="#22c55e" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <!-- Top Bun -->
+        <path d="M 18 41 C 18 10 102 10 102 41 Z" fill="#f59e0b" stroke="#92400e" stroke-width="2"/>
+        <!-- Sesame Seeds -->
+        <ellipse cx="40" cy="26" rx="2" ry="1" fill="#fef3c7"/>
+        <ellipse cx="60" cy="20" rx="2" ry="1" fill="#fef3c7"/>
+        <ellipse cx="78" cy="28" rx="2" ry="1" fill="#fef3c7"/>
+        <ellipse cx="50" cy="32" rx="2" ry="1" fill="#fef3c7"/>
+      </g>
+    </g>
+
+    <!-- RIGHT ARM & PIZZA (Viewer's Right, Bull's Left Hand) -->
+    <g id="pizza-hand">
+      <!-- Arm -->
+      <path d="M 380 330 C 420 340 450 360 445 385 C 440 405 415 410 395 380 Z" fill="url(#bullBody)" stroke="#3b1b0b" stroke-width="2"/>
+      <!-- Pizza Slice -->
+      <g transform="translate(405, 305) rotate(15)">
+        <!-- Crust -->
+        <path d="M 10 15 Q 50 5 90 18 Q 85 30 50 20 Q 15 28 10 15 Z" fill="#d97706" stroke="#92400e" stroke-width="2"/>
+        <!-- Slice Body -->
+        <polygon points="16,22 84,24 50,95" fill="#f59e0b" stroke="#b45309" stroke-width="2"/>
+        <!-- Melted Cheese surface -->
+        <polygon points="20,24 80,26 50,90" fill="#fde047"/>
+        <!-- Dripping Cheese Strings -->
+        <path d="M 50 90 Q 52 105 48 115" stroke="#fde047" stroke-width="4" stroke-linecap="round" fill="none"/>
+        <path d="M 45 80 Q 42 95 38 102" stroke="#fde047" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+        <!-- Pepperoni Slices -->
+        <circle cx="36" cy="40" r="8" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/>
+        <circle cx="62" cy="45" r="8" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/>
+        <circle cx="48" cy="65" r="7" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/>
+        <!-- Black Olives -->
+        <circle cx="50" cy="35" r="3.5" fill="#18181b"/>
+        <circle cx="34" cy="60" r="3" fill="#18181b"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Typography Banner (TOUROS) -->
+  <g filter="url(#shadow)">
+    <!-- Shadow Text -->
+    <text x="300" y="444" font-family="'Impact', 'Arial Black', sans-serif" font-size="76" font-weight="900" letter-spacing="6" text-anchor="middle" fill="#260b02">
+      TOUROS
+    </text>
+    <!-- Main Gold Arched Gradient Text -->
+    <text x="300" y="440" font-family="'Impact', 'Arial Black', sans-serif" font-size="76" font-weight="900" letter-spacing="6" text-anchor="middle" fill="url(#goldText)" stroke="#4a1804" stroke-width="3">
+      TOUROS
+    </text>
+  </g>
+
+  <!-- Sub-Ribbon Banner (BURGER & PIZZA) -->
+  <g id="banner-ribbon" filter="url(#shadow)">
+    <!-- Ribbon tails -->
+    <polygon points="90,490 140,470 140,515 90,525 105,505" fill="#750f04"/>
+    <polygon points="510,490 460,470 460,515 510,525 495,505" fill="#750f04"/>
+
+    <!-- Main Ribbon Body -->
+    <path d="M 125 475 Q 300 460 475 475 L 465 520 Q 300 505 135 520 Z" fill="url(#ribbonGrad)" stroke="#ffedd5" stroke-width="2"/>
+
+    <!-- Stars on ribbon -->
+    <polygon points="160,492 163,485 166,492 173,492 168,496 170,503 164,499 158,503 160,496 155,492" fill="#facc15"/>
+    <polygon points="440,492 443,485 446,492 453,492 448,496 450,503 444,499 438,503 440,496 435,492" fill="#facc15"/>
+
+    <!-- Text BURGER & PIZZA -->
+    <text x="300" y="504" font-family="'Arial Black', 'Trebuchet MS', sans-serif" font-size="24" font-weight="900" letter-spacing="4" text-anchor="middle" fill="#ffffff" stroke="#450a0a" stroke-width="1.2">
+      BURGER &amp; PIZZA
+    </text>
+  </g>
+
+  <!-- Laurel / Wheat Leaves at bottom -->
+  <g stroke="#f5c242" stroke-width="2" fill="#eab308" opacity="0.8">
+    <path d="M 230 545 Q 260 560 300 560 Q 340 560 370 545" fill="none"/>
+    <ellipse cx="245" cy="548" rx="6" ry="3" transform="rotate(-20 245 548)"/>
+    <ellipse cx="270" cy="556" rx="6" ry="3" transform="rotate(-10 270 556)"/>
+    <ellipse cx="330" cy="556" rx="6" ry="3" transform="rotate(10 330 556)"/>
+    <ellipse cx="355" cy="548" rx="6" ry="3" transform="rotate(20 355 548)"/>
+  </g>
+</svg>

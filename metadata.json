@@ -1,0 +1,8 @@
+{
+  "name": "Touros Burger & Pizza - Cardápio",
+  "description": "Cardápio digital de Hambúrgueres Artesanais, Pizzas e Bebidas da Touros Burger & Pizza, com a Roleta de Prêmios oficial e versão para folheto impresso.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
